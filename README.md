@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="30 Days of Frontend Development Banner" width="100%">
+</p>
+
 # 🚀 30 Days of Frontend Development
 
 Building one frontend project every day to master HTML, CSS, JavaScript, and React.
