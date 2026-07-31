@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: lightgrey;
+}
+
+.container{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.btn-primary{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background: white;
+    transition-duration: 0.4s;
+}
+.btn-primary:hover{
+    color: white;
+    background: black;
+    border: 1px solid black;
+}
