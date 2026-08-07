@@ -19,6 +19,7 @@ const updateClock = () => {
     const hour = displayHours.toString().padStart(2, '0');
     const min = minutes.toString().padStart(2, '0');
     const sec = seconds.toString().padStart(2, '0');
+    
     ampm.textContent = period;
     time.textContent = `${hour}:${min}:${sec}`;
 
